@@ -2,7 +2,7 @@
 
 ## A Data Science Journey Through Your GitHub History
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/username/repo/blob/main/github_activity_explorer.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1aU7TqTRtyJ3LSZdpLAw1soz3tcgC1cac)
 
 Ever wondered about your GitHub story? This Colab notebook turns your GitHub activity into a data science playground. Perfect for developers who love diving into data (and maybe procrastinating productively by analyzing their commit patterns 😉).
 
@@ -43,13 +43,12 @@ This tool is designed to be **100% read-only**. It will:
 - ❌ Never modify repositories
 - ❌ Never change any settings
 
-### Required Permissions (Read-Only)
+### Required Permissions
 
-Your GitHub token needs only read access:
+Your GitHub token needs access through the following scopes:
 
-- `repo:status` and `public_repo` - Read-only access to repository data
-  - Access commit status
-  - Access public repositories
+- `repo` - Grant access to your repositories' information
+  - If you review the code, there are no write operations
 - `read:org` - Read-only access to organization data
   - View organization repository listings
 - `read:user` - Read-only access to user profile data
